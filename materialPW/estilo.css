@@ -1,0 +1,87 @@
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: sans-serif;
+      background: #1a0a2e;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    h1 {
+      color: #c9a0f5;
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 24px;
+    }
+
+    .card {
+      background: #2b1050;
+      border: 1px solid #4a1f8a;
+      border-radius: 10px;
+      padding: 28px 24px;
+      width: 300px;
+    }
+
+    label {
+      display: block;
+      font-size: 13px;
+      color: #c9a0f5;
+      margin-bottom: 4px;
+    }
+
+    input {
+      width: 100%;
+      padding: 8px 10px;
+      background: #1a0a2e;
+      border: 1px solid #4a1f8a;
+      border-radius: 6px;
+      font-size: 14px;
+      color: #fff;
+      margin-bottom: 14px;
+      outline: none;
+    }
+
+    input:focus {
+      border-color: #9b4ddb;
+    }
+
+    .btn-criar {
+      width: 100%;
+      background: #5c1f99;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      padding: 10px 0;
+      font-size: 15px;
+      font-weight: 500;
+      cursor: pointer;
+      margin-bottom: 14px;
+    }
+
+    .btn-criar:hover {
+      background: #6f28b8;
+    }
+
+    .ja-tem-conta {
+      text-align: center;
+      font-size: 12px;
+      color: #9b7fc4;
+    }
+
+    .ja-tem-conta a {
+      color: #c9a0f5;
+      font-weight: 600;
+      text-decoration: none;
+      margin-left: 4px;
+    }
+
+    .ja-tem-conta a:hover {
+      text-decoration: underline;
+    }
