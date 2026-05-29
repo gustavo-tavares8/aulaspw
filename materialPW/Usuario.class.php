@@ -11,12 +11,10 @@ class Usuario
     public function conecta()
     {
         $dns = "mysql:dbname=banco;host=localhost";
-        $userName = "root";
-        $userPass = "";
-
+        $dbUser = "root";
+        $dbPass = "";
         try {
-            $this->pdo = new PDO($dns, $userName, $userPass);
-            return true;
+            $this->pdo = new PDO($dns, $dbUser, $dbPass);
         } catch (\Throwable $th) {
             return false;
         }

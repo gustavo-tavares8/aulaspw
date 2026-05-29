@@ -1,12 +1,12 @@
 <?php
 require "Usuario.class.php";
-$usuario =  new Usuario ();
+$usuario =  new Usuario();
 
-$conn = $usuario->conectar ();
+$conn = $usuario->conecta();
 if ($conn) {
-    $user = $usuario->inserirUsuario ("Gustavos", "Gustavo3@gmail.com", "7777");
+    $user = $usuario->inserirUsuario ("gusta", "gusta2121@gmail.com", "euvoumataropr");
     if ($user) {
-        echo"";"Usuario inserido com sucesso";
+        echo "Usuario inserido com sucesso";
     }else{ 
         echo "Erro ao inserir usuario";
     }

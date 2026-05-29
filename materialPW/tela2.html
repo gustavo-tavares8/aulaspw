@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -11,16 +13,17 @@
     <body>
 
   <h1>Criar Conta</h1>
-
-  <div class="card">
+      
+      
+    <form action="Usuario.class.php" method="post" class="card">
     <label for="nome">Nome:</label>
-    <input type="text" id="nome" />
+    <input type="text" id="nome" name="nome" />
 
     <label for="email">Email:</label>
-    <input type="email" id="email" />
+    <input type="email" id="email" name="email"/>
 
     <label for="senha">Senha:</label>
-    <input type="password" id="senha" />
+    <input type="password" id="senha" name="senha" />
 
     <label for="confirmar-senha">Confirmar Senha:</label>
     <input type="password" id="confirmar-senha" />
@@ -28,7 +31,7 @@
     <button class="btn-criar">Criar Conta</button>
 
     <p class="ja-tem-conta">Já tem uma conta? <a href="INDEX.HTML">Entrar</a></p>
-  </div>
+  </form>
         
         
         
